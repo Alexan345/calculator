@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<forma>
+  <label for="car-price" > Automobilul costă:</label>
+  <input id="car-price" type="range" min="5000" max="10000" step="1000" />
+  <input id="price-out" type="text" disabled>
+  <label for="car-avans ">Am un avans de</label>
+  <!-- <input id="car-avans" type="range" min="20" max="60" step="20"  /> -->
+  <input id="avans-out" type="text" disabled>
+  <label>Termenul creditului</label>
+  <input id="credit-time" type="range" min="12" max="36" step="12" />
+  <input id="time-out" type="text" disabled>
+</forma>
+<div>
+  <label id="result">Prima Rata</label>
+  <input id="fin-result" type="text" disabled >
+</div>
+<div>
+  <label id="res-tpay">Suma Ramasa</label>
+  <input id="rest-payOut" type="text" disabled >
+</div>
+<div> 
+  <label id="month-pay">Plata Lunara</label>
+  <input id="month-payOut" type="text" disabled >
+</div>
+
+    <script src="Message.js"></script>
+    <script src="MessageExt.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html> 
+
